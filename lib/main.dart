@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/pdpui.dart';
+import 'package:untitled/pdpui1/pdpui1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
               titleTextStyle: TextStyle(color: Colors.black, fontSize: 24, fontWeight: FontWeight.w500)
           )
       ),
-      home: PdpUi(),
+      home: PdpUI1(),
 
     );
   }
